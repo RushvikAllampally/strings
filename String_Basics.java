@@ -27,10 +27,11 @@ public class String_Basics {
 		
 		//individual characters 
 		
-			System.out.println(s.charAt(4));
+			System.out.println(s.charAt(0));
 			
 		//extracting substring
-			System.out.println(s.substring(4));
+			System.out.println("length : " + s.length());
+			System.out.println(s.substring(11));
 			System.out.println(s.substring(4,9));
 			
 		//case conversion
